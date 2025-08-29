@@ -21,8 +21,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Global Alliance of Muslims for Equality Inc" className="logo-img" />
-                <span className="studio-name">Global Alliance of Muslims for Equality Inc</span>
+                <img src={logoImg} alt="HealthCareTeam" className="logo-img" />
+                <span className="studio-name">HealthCareTeam</span>
               </div>
             </div>
 
@@ -52,8 +52,8 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">Global Alliance of Muslims for Equality Inc – Welcome Aboard</h2>
-            <p className="about-text">Global Alliance of Muslims for Equality Inc is a mobile app development studio focused on creating secure, innovative, and user-friendly financial solutions. Alongside our fintech products, we also deliver advanced PDF tools that simplify document management and digital workflows. Our official website highlights a broad portfolio – ranging from PDF utilities and productivity apps to lifestyle, educational, and financial solutions.
+            <h2 className="highlight-title">HealthCareTeam – Welcome Aboard</h2>
+            <p className="about-text">HealthCareTeam is a mobile app development studio focused on creating secure, innovative, and user-friendly financial solutions. Alongside our fintech products, we also deliver advanced PDF tools that simplify document management and digital workflows. Our official website highlights a broad portfolio – ranging from PDF utilities and productivity apps to lifestyle, educational, and financial solutions.
             </p>
           </div>
           <div className="about-img-container">
@@ -112,8 +112,7 @@ function App() {
         </Routes>
         <footer className="footer">
           <div className="container text-center">
-            <p>&copy; {new Date().getFullYear()} Global Alliance of Muslims for Equality
-Inc. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} HealthCareTeam. All rights reserved.</p>
           </div>
         </footer>
       </div>
